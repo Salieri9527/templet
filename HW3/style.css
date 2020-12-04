@@ -1,0 +1,20 @@
+.design h1 {
+	background-color: lightyellow;
+	font-size: 50px;
+	padding-right: auto;
+	padding-left: auto; 
+}
+
+.design p {
+	font-size: 15px;
+	font-weight: bold;
+}
+.design span {
+	color: red;
+}
+.design img {
+	float: right;
+	margin-right: 10%;
+	width: 20%;
+	height: 20%;
+}
