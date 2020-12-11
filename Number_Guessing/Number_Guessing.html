@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Number Guessing
+	</title>
+</head>
+<body>
+	<div>
+		<script type="text/javascript">
+			var ran = Math.floor((Math.random() * 10) + 1);
+			var num = window.prompt("Please enter a integer from 1 to 10");
+			while (num != ran) {
+				if (num < 1 || num > 10) {
+					num = window.prompt("Please enter a integer between 1 and 10!!!");
+				} else {
+					num = window.prompt("Please enter a integer again");
+				}
+			}
+			document.writeln("<h1>Congratulation!</h1>");
+			document.writeln("<h1>The answer is " + ran + "!!!</h1>");
+		</script>
+	</div>
+</body>
+</html>
